@@ -1,3 +1,5 @@
+import { archiveSeasons } from '../lib/seasons';
+import { Bracket } from './Bracket';
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import type { Match } from '../types';
@@ -14,9 +16,10 @@ interface Archive {
 export function HistoryPanel({
   onSelect,
 }: {
-  onSelect: (match: Match) => void;
+  onSelect: (match: Match, context?: Match[]) => void;
 }) {
-  const [year, setYear] = useState('2026');
+  const [year, setYear] = useState(String(archiveSeasons[0].year));
+  const [view, setView] = useState('results');
   const [limit, setLimit] = useState(24);
   const query = useQuery<Archive>({
     queryKey: ['history', year],
@@ -48,10 +51,20 @@ export function HistoryPanel({
               setLimit(24);
             }}
           >
-            <option value="2026">2026/27</option>
-            <option value="2025">2025/26</option>
+            {archiveSeasons.map((s) => (
+              <option key={s.year} value={s.year}>
+                {s.label}
+              </option>
+            ))}
           </select>
         </label>
+      </div>
+      <div className="segmented" aria-label="History display">
+        {['results', 'bracket'].map((v) => (
+          <button key={v} aria-pressed={view === v} onClick={() => setView(v)}>
+            {v === 'results' ? 'Results' : 'Bracket'}
+          </button>
+        ))}
       </div>
       <p className="section-note">
         Browse completed matches without an API account. Select a match for
@@ -73,23 +86,33 @@ export function HistoryPanel({
               ESPN source
             </a>
           </p>
-          {rows.map((match, index) => (
-            <div key={match.id} className="history-result">
-              {(index === 0 ||
-                dateLabel(rows[index - 1].utcDate) !==
-                  dateLabel(match.utcDate)) && (
-                <h3>{dateLabel(match.utcDate)}</h3>
-              )}
-              <MatchRow match={match} onSelect={onSelect} />
-              {match.resultNote && (
-                <p className="result-note">
-                  {match.home.shortName} / {match.away.shortName} ·{' '}
-                  {match.resultNote}
-                </p>
-              )}
-            </div>
-          ))}
-          {limit < archive.matches.length && (
+          {view === 'bracket' && (
+            <Bracket
+              matches={archive.matches}
+              onSelect={(m) => onSelect(m, archive.matches)}
+            />
+          )}
+          {view === 'results' &&
+            rows.map((match, index) => (
+              <div key={match.id} className="history-result">
+                {(index === 0 ||
+                  dateLabel(rows[index - 1].utcDate) !==
+                    dateLabel(match.utcDate)) && (
+                  <h3>{dateLabel(match.utcDate)}</h3>
+                )}
+                <MatchRow
+                  match={match}
+                  onSelect={(m) => onSelect(m, archive.matches)}
+                />
+                {match.resultNote && (
+                  <p className="result-note">
+                    {match.home.shortName} / {match.away.shortName} ·{' '}
+                    {match.resultNote}
+                  </p>
+                )}
+              </div>
+            ))}
+          {view === 'results' && limit < archive.matches.length && (
             <button
               className="history-more"
               onClick={() => setLimit((n) => n + 24)}

@@ -22,6 +22,7 @@ export function MatchRow({
       aria-label={`${match.home.name} versus ${match.away.name}, ${scheduled ? kickoff(match.utcDate) : scoreText(match.score)}, ${clock}. Match details`}
     >
       <span className={`match-time ${isLive(match) ? 'live-time' : ''}`}>
+        {isLive(match) && <span className="row-live-label">LIVE </span>}
         {scheduled ? kickoff(match.utcDate) : clock}
       </span>
       <span className="row-team home-team">

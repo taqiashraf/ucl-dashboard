@@ -159,3 +159,12 @@ The History tab works without credentials and includes completed 2026/27 and 202
 ## Partnership intelligence
 
 Open `/?view=insights` for measured football KPIs, a fixture calendar, club scoring, player contributions, club/dataset filters and a CSV export for Excel. The commercial planning lab uses explicitly illustrative inputs for CPM-equivalent valuation and sensitivity; it is not measured sponsorship value or ROI. The coverage panel makes missing assists and absent commercial data explicit. See [the portfolio case study](docs/PORTFOLIO-CASE-STUDY.md) for definitions and an interview walkthrough.
+
+## Expanded season and portfolio tools
+
+- Table / Bracket / Compare seasons controls, with reconstructed historical group and league tables. Historical display order uses points, goal difference and goals scored; official head-to-head tie-breakers are not reproduced.
+- Eight-season archive, currently 2019/20–2026/27, including historical knockout legs.
+- Goals / reported assists controls. Assist ordering is restricted to the returned goalscorer sample; it is not a complete assist leaderboard.
+- Insights organized around Plan matchdays, Review a partner and Test a price. Individual match briefs provide football context; the partner case is explicitly synthetic.
+- Red LIVE status and quicker polling around kickoff. Free-plan provider delays still apply.
+- Dynamic season metadata and a prepared daily archive refresh workflow. See [automatic updates and deployment](docs/AUTOMATIC-UPDATES.md) for activation requirements.

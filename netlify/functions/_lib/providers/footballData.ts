@@ -27,8 +27,10 @@ const matchSchema = z.object({
   stage: z.string(),
   matchday: z.number().nullish(),
   venue: z.string().nullish(),
+  attendance: z.number().int().nonnegative().nullish(),
   lastUpdated: z.string(),
   competition: z.object({ code: z.string() }),
+  season: z.object({ startDate: z.string() }).optional(),
   homeTeam: teamSchema,
   awayTeam: teamSchema,
   score: z.object({
@@ -51,6 +53,7 @@ export function normaliseFootballDataMatch(input: unknown): Match {
   return {
     id: m.id,
     utcDate: m.utcDate,
+    seasonStart: m.season ? Number(m.season.startDate.slice(0, 4)) : undefined,
     status,
     minute: m.minute ?? null,
     period:
@@ -66,6 +69,7 @@ export function normaliseFootballDataMatch(input: unknown): Match {
     stage: m.stage,
     matchday: m.matchday ?? null,
     venue: m.venue ?? null,
+    attendance: m.attendance ?? null,
     referee:
       m.referees?.find((r) => r.type === 'REFEREE')?.name ??
       m.referees?.[0]?.name ??

@@ -14,7 +14,7 @@ export function LiveIndicator({
       <span className="live-dot" aria-hidden="true">
         <span className="live-ring" />
       </span>
-      {replay ? 'Live replay' : 'Live'}
+      {replay ? 'Live replay' : 'LIVE'}
     </span>
   );
 }

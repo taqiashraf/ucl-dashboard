@@ -1,0 +1,80 @@
+{
+  "title": "Northstar Matchweek Partnership",
+  "status": "SYNTHETIC PORTFOLIO EXERCISE — all partners, assets, fees and measurements are fictional",
+  "period": "Illustrative four-match campaign",
+  "currency": "USD",
+  "assets": [
+    {
+      "id": "A01",
+      "partner": "Northstar Travel",
+      "channel": "Social",
+      "asset": "Sponsored posts",
+      "contracted": 8,
+      "delivered": 6,
+      "fee": 12000,
+      "impressions": 360000,
+      "engagements": 14400,
+      "clicks": 1800
+    },
+    {
+      "id": "A02",
+      "partner": "Northstar Travel",
+      "channel": "Digital",
+      "asset": "Newsletter placements",
+      "contracted": 4,
+      "delivered": 4,
+      "fee": 4000,
+      "impressions": 80000,
+      "engagements": null,
+      "clicks": 1200
+    },
+    {
+      "id": "A03",
+      "partner": "Northstar Travel",
+      "channel": "In venue",
+      "asset": "Hospitality sessions",
+      "contracted": 4,
+      "delivered": 3,
+      "fee": 8000,
+      "impressions": null,
+      "engagements": null,
+      "clicks": null
+    },
+    {
+      "id": "A04",
+      "partner": "Summit Audio",
+      "channel": "Social",
+      "asset": "Sponsored videos",
+      "contracted": 6,
+      "delivered": 7,
+      "fee": 15000,
+      "impressions": 700000,
+      "engagements": 28000,
+      "clicks": 2100
+    },
+    {
+      "id": "A05",
+      "partner": "Summit Audio",
+      "channel": "Digital",
+      "asset": "Website placements",
+      "contracted": 4,
+      "delivered": 4,
+      "fee": 6000,
+      "impressions": 240000,
+      "engagements": null,
+      "clicks": 720
+    },
+    {
+      "id": "A06",
+      "partner": "Summit Audio",
+      "channel": "In venue",
+      "asset": "Fan-zone activations",
+      "contracted": 4,
+      "delivered": 2,
+      "fee": 10000,
+      "impressions": null,
+      "engagements": null,
+      "clicks": null
+    }
+  ]
+}

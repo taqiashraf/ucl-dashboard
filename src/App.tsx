@@ -7,11 +7,12 @@ import {
   useDemo,
 } from './hooks/useMatches';
 import { InsightsPanel } from './components/InsightsPanel';
+import { CompetitionPanel } from './components/CompetitionPanel';
+import { seasonStart, seasonLabel, feedSeason } from './lib/seasons';
 import { HistoryPanel } from './components/HistoryPanel';
 import { Tabs, type Tab } from './components/Tabs';
 import { MatchRow } from './components/MatchRow';
 import { MatchDetail } from './components/MatchDetail';
-import { StandingsTable } from './components/StandingsTable';
 import { ScorersList } from './components/ScorersList';
 import { LiveStrip } from './components/LiveStrip';
 import { RefreshStatus } from './components/RefreshStatus';
@@ -35,6 +36,7 @@ function App() {
         ? 'insights'
         : 'matches',
   );
+  const [selectedContext, setSelectedContext] = useState<Match[]>([]);
   const [selected, setSelected] = useState<Match | null>(null);
   const [theme, setTheme] = useState<boolean | null>(null);
   const systemDark = useSyncExternalStore(
@@ -83,7 +85,9 @@ function App() {
     .filter((m) => m.status === 'FINISHED')
     .sort((a, b) => b.utcDate.localeCompare(a.utcDate))
     .slice(0, 18);
-  const season = demo ? (archive.data?.season ?? '2024/25') : '2026/27';
+  const season = demo
+    ? (archive.data?.season ?? '2024/25')
+    : seasonLabel(feedSeason(matches.data?.data ?? []) ?? seasonStart());
   const retry = () => {
     void (demo ? archive.refetch() : matches.refetch());
   };
@@ -254,7 +258,14 @@ function App() {
               loading={matches.isPending && matches.isFetching}
             />
           )}
-          {history && <HistoryPanel onSelect={setSelected} />}
+          {history && (
+            <HistoryPanel
+              onSelect={(m, context) => {
+                setSelected(m);
+                setSelectedContext(context ?? []);
+              }}
+            />
+          )}
           {!history && !insights && (
             <aside className="side-rail">
               <section
@@ -292,8 +303,13 @@ function App() {
                     : standings.isPending && standings.isFetching
                 ) ? (
                   <Skeleton rows={8} />
-                ) : table?.length ? (
-                  <StandingsTable rows={table} compact={tab === 'matches'} />
+                ) : table?.length || tab === 'table' ? (
+                  <CompetitionPanel
+                    rows={table ?? []}
+                    matches={data}
+                    compact={tab === 'matches'}
+                    onSelect={setSelected}
+                  />
                 ) : (
                   !standings.error && (
                     <EmptyState message="The league-phase table is not available yet." />
@@ -377,6 +393,7 @@ function App() {
           match={selected}
           demo={demo}
           history={history}
+          context={history ? selectedContext : data}
           onClose={() => setSelected(null)}
         />
       )}

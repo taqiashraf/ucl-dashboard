@@ -1,3 +1,4 @@
+import { seasonStart } from '../season';
 import { z } from 'zod';
 import type {
   Provider,
@@ -115,7 +116,7 @@ export function apiFootball(transport: Transport): Provider {
       return (
         await read('fixtures', {
           league: 2,
-          season: filter.season ?? 2026,
+          season: filter.season ?? seasonStart(),
           ...(filter.dateFrom ? { from: filter.dateFrom } : {}),
           ...(filter.dateTo ? { to: filter.dateTo } : {}),
         })
@@ -150,7 +151,7 @@ export function apiFootball(transport: Transport): Provider {
             }),
           }),
         )
-        .parse(await read('standings', { league: 2, season: 2026 }));
+        .parse(await read('standings', { league: 2, season: seasonStart() }));
       return (raw[0]?.league.standings.flat() ?? []).map((r) => ({
         position: r.rank,
         team: team(r.team),
@@ -181,7 +182,12 @@ export function apiFootball(transport: Transport): Provider {
             ),
           }),
         )
-        .parse(await read('players/topscorers', { league: 2, season: 2026 }));
+        .parse(
+          await read('players/topscorers', {
+            league: 2,
+            season: seasonStart(),
+          }),
+        );
       return raw.slice(0, limit).flatMap((r) => {
         const s = r.statistics[0];
         return s

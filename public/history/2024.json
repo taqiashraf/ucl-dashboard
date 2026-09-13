@@ -1,0 +1,7568 @@
+{
+  "season": "2024/25",
+  "updatedAt": "2026-09-13T18:54:57.212Z",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20240901-20250831&limit=1000",
+  "coverage": "Completed group/league-phase and knockout matches. Qualifying rounds are excluded. Source snapshot; see update date.",
+  "matches": [
+    {
+      "id": 733620,
+      "utcDate": "2025-05-31T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Final",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733620"
+    },
+    {
+      "id": 733618,
+      "utcDate": "2025-05-07T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Semifinals",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 3–1",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733618"
+    },
+    {
+      "id": 733619,
+      "utcDate": "2025-05-06T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Semifinals",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 7–6",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733619"
+    },
+    {
+      "id": 733617,
+      "utcDate": "2025-04-30T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Semifinals",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733617"
+    },
+    {
+      "id": 733616,
+      "utcDate": "2025-04-29T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Semifinals",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733616"
+    },
+    {
+      "id": 733615,
+      "utcDate": "2025-04-16T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733615"
+    },
+    {
+      "id": 733612,
+      "utcDate": "2025-04-16T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 1–5",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733612"
+    },
+    {
+      "id": 733613,
+      "utcDate": "2025-04-15T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–5",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733613"
+    },
+    {
+      "id": 733614,
+      "utcDate": "2025-04-15T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 3–5",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733614"
+    },
+    {
+      "id": 733610,
+      "utcDate": "2025-04-09T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733610"
+    },
+    {
+      "id": 733609,
+      "utcDate": "2025-04-09T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733609"
+    },
+    {
+      "id": 733608,
+      "utcDate": "2025-04-08T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733608"
+    },
+    {
+      "id": 733611,
+      "utcDate": "2025-04-08T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Quarterfinals",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733611"
+    },
+    {
+      "id": 733607,
+      "utcDate": "2025-03-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 9–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733607"
+    },
+    {
+      "id": 733146,
+      "utcDate": "2025-03-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 6–1",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733146"
+    },
+    {
+      "id": 733606,
+      "utcDate": "2025-03-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Penalties: 2–4 · Aggregate: 2–2",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733606"
+    },
+    {
+      "id": 733604,
+      "utcDate": "2025-03-12T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 2–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733604"
+    },
+    {
+      "id": 733148,
+      "utcDate": "2025-03-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "BayArena",
+      "referee": null,
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 0–5",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733148"
+    },
+    {
+      "id": 733150,
+      "utcDate": "2025-03-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–1",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733150"
+    },
+    {
+      "id": 733605,
+      "utcDate": "2025-03-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Penalties: 1–4 · Aggregate: 1–1",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733605"
+    },
+    {
+      "id": 733144,
+      "utcDate": "2025-03-11T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–1",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733144"
+    },
+    {
+      "id": 733147,
+      "utcDate": "2025-03-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733147"
+    },
+    {
+      "id": 733143,
+      "utcDate": "2025-03-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733143"
+    },
+    {
+      "id": 733600,
+      "utcDate": "2025-03-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733600"
+    },
+    {
+      "id": 733149,
+      "utcDate": "2025-03-05T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733149"
+    },
+    {
+      "id": 733601,
+      "utcDate": "2025-03-04T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733601"
+    },
+    {
+      "id": 733603,
+      "utcDate": "2025-03-04T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 7
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 7
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733603"
+    },
+    {
+      "id": 733602,
+      "utcDate": "2025-03-04T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733602"
+    },
+    {
+      "id": 733145,
+      "utcDate": "2025-03-04T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Round of 16",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/733145"
+    },
+    {
+      "id": 732196,
+      "utcDate": "2025-02-19T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 7,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 7,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 10–0",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732196"
+    },
+    {
+      "id": 732195,
+      "utcDate": "2025-02-19T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732195"
+    },
+    {
+      "id": 732200,
+      "utcDate": "2025-02-19T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 6–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732200"
+    },
+    {
+      "id": 732199,
+      "utcDate": "2025-02-19T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 3–0",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732199"
+    },
+    {
+      "id": 732197,
+      "utcDate": "2025-02-18T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 2–5",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732197"
+    },
+    {
+      "id": 732193,
+      "utcDate": "2025-02-18T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 3–2",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732193"
+    },
+    {
+      "id": 732198,
+      "utcDate": "2025-02-18T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 4–3",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732198"
+    },
+    {
+      "id": 732194,
+      "utcDate": "2025-02-18T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "Aggregate: 1–2",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732194"
+    },
+    {
+      "id": 732188,
+      "utcDate": "2025-02-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732188"
+    },
+    {
+      "id": 732186,
+      "utcDate": "2025-02-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732186"
+    },
+    {
+      "id": 732191,
+      "utcDate": "2025-02-12T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732191"
+    },
+    {
+      "id": 732192,
+      "utcDate": "2025-02-12T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732192"
+    },
+    {
+      "id": 732190,
+      "utcDate": "2025-02-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732190"
+    },
+    {
+      "id": 732187,
+      "utcDate": "2025-02-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732187"
+    },
+    {
+      "id": 732189,
+      "utcDate": "2025-02-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732189"
+    },
+    {
+      "id": 732185,
+      "utcDate": "2025-02-11T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "Knockout Round Playoffs",
+      "matchday": null,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/732185"
+    },
+    {
+      "id": 720363,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720363"
+    },
+    {
+      "id": 720362,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720362"
+    },
+    {
+      "id": 720361,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "BayArena",
+      "referee": null,
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720361"
+    },
+    {
+      "id": 720357,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720357"
+    },
+    {
+      "id": 720360,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720360"
+    },
+    {
+      "id": 720364,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720364"
+    },
+    {
+      "id": 720358,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Maksimir",
+      "referee": null,
+      "home": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720358"
+    },
+    {
+      "id": 720355,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Municipal de Montilivi",
+      "referee": null,
+      "home": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720355"
+    },
+    {
+      "id": 720347,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720347"
+    },
+    {
+      "id": 720348,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720348"
+    },
+    {
+      "id": 720349,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 6,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 6,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720349"
+    },
+    {
+      "id": 720350,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720350"
+    },
+    {
+      "id": 720351,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720351"
+    },
+    {
+      "id": 720356,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena Salzburg",
+      "referee": null,
+      "home": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720356"
+    },
+    {
+      "id": 720352,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "28 Black Arena",
+      "referee": null,
+      "home": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "away": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720352"
+    },
+    {
+      "id": 720353,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720353"
+    },
+    {
+      "id": 720354,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "MHPArena",
+      "referee": null,
+      "home": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720354"
+    },
+    {
+      "id": 720359,
+      "utcDate": "2025-01-29T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Wankdorf",
+      "referee": null,
+      "home": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "away": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720359"
+    },
+    {
+      "id": 720346,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720346"
+    },
+    {
+      "id": 720343,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720343"
+    },
+    {
+      "id": 720342,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720342"
+    },
+    {
+      "id": 720341,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720341"
+    },
+    {
+      "id": 720344,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720344"
+    },
+    {
+      "id": 720345,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720345"
+    },
+    {
+      "id": 720340,
+      "utcDate": "2025-01-22T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Generali-Arena",
+      "referee": null,
+      "home": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720340"
+    },
+    {
+      "id": 720339,
+      "utcDate": "2025-01-22T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena",
+      "referee": null,
+      "home": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720339"
+    },
+    {
+      "id": 720338,
+      "utcDate": "2025-01-22T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "VELTINS-Arena",
+      "referee": null,
+      "home": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720338"
+    },
+    {
+      "id": 720335,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720335"
+    },
+    {
+      "id": 720334,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 5
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 5
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720334"
+    },
+    {
+      "id": 720333,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Renato Dall'Ara",
+      "referee": null,
+      "home": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720333"
+    },
+    {
+      "id": 720336,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720336"
+    },
+    {
+      "id": 720331,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720331"
+    },
+    {
+      "id": 720332,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Rajko Mitic Stadium",
+      "referee": null,
+      "home": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720332"
+    },
+    {
+      "id": 720337,
+      "utcDate": "2025-01-21T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Národny Futbalovy Stadión",
+      "referee": null,
+      "home": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720337"
+    },
+    {
+      "id": 720330,
+      "utcDate": "2025-01-21T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720330"
+    },
+    {
+      "id": 720329,
+      "utcDate": "2025-01-21T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720329"
+    },
+    {
+      "id": 720328,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720328"
+    },
+    {
+      "id": 720325,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720325"
+    },
+    {
+      "id": 720324,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720324"
+    },
+    {
+      "id": 720322,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720322"
+    },
+    {
+      "id": 720323,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720323"
+    },
+    {
+      "id": 720326,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720326"
+    },
+    {
+      "id": 720327,
+      "utcDate": "2024-12-11T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "MHPArena",
+      "referee": null,
+      "home": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "away": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720327"
+    },
+    {
+      "id": 720321,
+      "utcDate": "2024-12-11T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720321"
+    },
+    {
+      "id": 720417,
+      "utcDate": "2024-12-11T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720417"
+    },
+    {
+      "id": 720413,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720413"
+    },
+    {
+      "id": 720412,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "BayArena",
+      "referee": null,
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720412"
+    },
+    {
+      "id": 720411,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720411"
+    },
+    {
+      "id": 720410,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720410"
+    },
+    {
+      "id": 720416,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena",
+      "referee": null,
+      "home": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720416"
+    },
+    {
+      "id": 720414,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena Salzburg",
+      "referee": null,
+      "home": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720414"
+    },
+    {
+      "id": 720415,
+      "utcDate": "2024-12-10T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "VELTINS-Arena",
+      "referee": null,
+      "home": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 5
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720415"
+    },
+    {
+      "id": 720409,
+      "utcDate": "2024-12-10T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Maksimir",
+      "referee": null,
+      "home": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720409"
+    },
+    {
+      "id": 720370,
+      "utcDate": "2024-12-10T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Municipal de Montilivi",
+      "referee": null,
+      "home": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720370"
+    },
+    {
+      "id": 720407,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720407"
+    },
+    {
+      "id": 720405,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720405"
+    },
+    {
+      "id": 720403,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Renato Dall'Ara",
+      "referee": null,
+      "home": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720403"
+    },
+    {
+      "id": 720404,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720404"
+    },
+    {
+      "id": 720406,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Maksimir",
+      "referee": null,
+      "home": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720406"
+    },
+    {
+      "id": 720369,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720369"
+    },
+    {
+      "id": 720408,
+      "utcDate": "2024-11-27T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720408"
+    },
+    {
+      "id": 720402,
+      "utcDate": "2024-11-27T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Rajko Mitic Stadium",
+      "referee": null,
+      "home": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "away": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720402"
+    },
+    {
+      "id": 720401,
+      "utcDate": "2024-11-27T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "28 Black Arena",
+      "referee": null,
+      "home": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "away": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720401"
+    },
+    {
+      "id": 720394,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720394"
+    },
+    {
+      "id": 720395,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "BayArena",
+      "referee": null,
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720395"
+    },
+    {
+      "id": 720396,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720396"
+    },
+    {
+      "id": 720397,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720397"
+    },
+    {
+      "id": 720398,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720398"
+    },
+    {
+      "id": 720399,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 5
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720399"
+    },
+    {
+      "id": 720400,
+      "utcDate": "2024-11-26T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Wankdorf",
+      "referee": null,
+      "home": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 6
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 6
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720400"
+    },
+    {
+      "id": 720393,
+      "utcDate": "2024-11-26T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Národny Futbalovy Stadión",
+      "referee": null,
+      "home": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720393"
+    },
+    {
+      "id": 720392,
+      "utcDate": "2024-11-26T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Generali-Arena",
+      "referee": null,
+      "home": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 6
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 6
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720392"
+    },
+    {
+      "id": 720389,
+      "utcDate": "2024-11-06T20:15Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720389"
+    },
+    {
+      "id": 720386,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720386"
+    },
+    {
+      "id": 720387,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720387"
+    },
+    {
+      "id": 720388,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720388"
+    },
+    {
+      "id": 720385,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Rajko Mitic Stadium",
+      "referee": null,
+      "home": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 5
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 5
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720385"
+    },
+    {
+      "id": 720390,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Generali-Arena",
+      "referee": null,
+      "home": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720390"
+    },
+    {
+      "id": 720391,
+      "utcDate": "2024-11-06T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "MHPArena",
+      "referee": null,
+      "home": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720391"
+    },
+    {
+      "id": 720383,
+      "utcDate": "2024-11-06T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720383"
+    },
+    {
+      "id": 720384,
+      "utcDate": "2024-11-06T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "VELTINS-Arena",
+      "referee": null,
+      "home": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "away": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720384"
+    },
+    {
+      "id": 720382,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Renato Dall'Ara",
+      "referee": null,
+      "home": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720382"
+    },
+    {
+      "id": 720381,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720381"
+    },
+    {
+      "id": 720377,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720377"
+    },
+    {
+      "id": 720378,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720378"
+    },
+    {
+      "id": 720368,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720368"
+    },
+    {
+      "id": 720380,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720380"
+    },
+    {
+      "id": 720379,
+      "utcDate": "2024-11-05T20:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720379"
+    },
+    {
+      "id": 720376,
+      "utcDate": "2024-11-05T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720376"
+    },
+    {
+      "id": 720375,
+      "utcDate": "2024-11-05T17:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Národny Futbalovy Stadión",
+      "referee": null,
+      "home": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720375"
+    },
+    {
+      "id": 720373,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720373"
+    },
+    {
+      "id": 720372,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720372"
+    },
+    {
+      "id": 720463,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720463"
+    },
+    {
+      "id": 720374,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720374"
+    },
+    {
+      "id": 720367,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena",
+      "referee": null,
+      "home": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720367"
+    },
+    {
+      "id": 720464,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena Salzburg",
+      "referee": null,
+      "home": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "away": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720464"
+    },
+    {
+      "id": 720371,
+      "utcDate": "2024-10-23T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Wankdorf",
+      "referee": null,
+      "home": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720371"
+    },
+    {
+      "id": 720461,
+      "utcDate": "2024-10-23T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720461"
+    },
+    {
+      "id": 720462,
+      "utcDate": "2024-10-23T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720462"
+    },
+    {
+      "id": 720455,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720455"
+    },
+    {
+      "id": 720457,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720457"
+    },
+    {
+      "id": 720454,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Municipal de Montilivi",
+      "referee": null,
+      "home": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "away": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720454"
+    },
+    {
+      "id": 720456,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720456"
+    },
+    {
+      "id": 720460,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720460"
+    },
+    {
+      "id": 720459,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720459"
+    },
+    {
+      "id": 720458,
+      "utcDate": "2024-10-22T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "28 Black Arena",
+      "referee": null,
+      "home": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720458"
+    },
+    {
+      "id": 720453,
+      "utcDate": "2024-10-22T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720453"
+    },
+    {
+      "id": 720452,
+      "utcDate": "2024-10-22T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720452"
+    },
+    {
+      "id": 720451,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720451"
+    },
+    {
+      "id": 720447,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720447"
+    },
+    {
+      "id": 720446,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Maksimir",
+      "referee": null,
+      "home": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720446"
+    },
+    {
+      "id": 720448,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720448"
+    },
+    {
+      "id": 720366,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720366"
+    },
+    {
+      "id": 720449,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena",
+      "referee": null,
+      "home": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720449"
+    },
+    {
+      "id": 720450,
+      "utcDate": "2024-10-02T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "28 Black Arena",
+      "referee": null,
+      "home": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720450"
+    },
+    {
+      "id": 720445,
+      "utcDate": "2024-10-02T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Municipal de Montilivi",
+      "referee": null,
+      "home": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720445"
+    },
+    {
+      "id": 720444,
+      "utcDate": "2024-10-02T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "VELTINS-Arena",
+      "referee": null,
+      "home": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720444"
+    },
+    {
+      "id": 720443,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Emirates Stadium",
+      "referee": null,
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720443"
+    },
+    {
+      "id": 720442,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": null,
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720442"
+    },
+    {
+      "id": 720437,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "BayArena",
+      "referee": null,
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720437"
+    },
+    {
+      "id": 720438,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": null,
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 7,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 7,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720438"
+    },
+    {
+      "id": 720440,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 4,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720440"
+    },
+    {
+      "id": 720441,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Philips Stadion",
+      "referee": null,
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720441"
+    },
+    {
+      "id": 720439,
+      "utcDate": "2024-10-01T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Národny Futbalovy Stadión",
+      "referee": null,
+      "home": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720439"
+    },
+    {
+      "id": 720435,
+      "utcDate": "2024-10-01T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Red Bull Arena Salzburg",
+      "referee": null,
+      "home": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720435"
+    },
+    {
+      "id": 720436,
+      "utcDate": "2024-10-01T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "MHPArena",
+      "referee": null,
+      "home": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720436"
+    },
+    {
+      "id": 720434,
+      "utcDate": "2024-09-19T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720434"
+    },
+    {
+      "id": 720431,
+      "utcDate": "2024-09-19T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720431"
+    },
+    {
+      "id": 720432,
+      "utcDate": "2024-09-19T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720432"
+    },
+    {
+      "id": 720433,
+      "utcDate": "2024-09-19T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720433"
+    },
+    {
+      "id": 720430,
+      "utcDate": "2024-09-19T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 4
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720430"
+    },
+    {
+      "id": 720429,
+      "utcDate": "2024-09-19T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Rajko Mitic Stadium",
+      "referee": null,
+      "home": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720429"
+    },
+    {
+      "id": 720427,
+      "utcDate": "2024-09-18T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720427"
+    },
+    {
+      "id": 720428,
+      "utcDate": "2024-09-18T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720428"
+    },
+    {
+      "id": 720426,
+      "utcDate": "2024-09-18T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720426"
+    },
+    {
+      "id": 720425,
+      "utcDate": "2024-09-18T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720425"
+    },
+    {
+      "id": 720424,
+      "utcDate": "2024-09-18T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Renato Dall'Ara",
+      "referee": null,
+      "home": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "away": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720424"
+    },
+    {
+      "id": 720423,
+      "utcDate": "2024-09-18T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Generali-Arena",
+      "referee": null,
+      "home": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "away": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720423"
+    },
+    {
+      "id": 720365,
+      "utcDate": "2024-09-17T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720365"
+    },
+    {
+      "id": 720422,
+      "utcDate": "2024-09-17T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "score": {
+        "home": 9,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 9,
+        "away": 2
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720422"
+    },
+    {
+      "id": 720420,
+      "utcDate": "2024-09-17T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720420"
+    },
+    {
+      "id": 720421,
+      "utcDate": "2024-09-17T19:00Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720421"
+    },
+    {
+      "id": 720418,
+      "utcDate": "2024-09-17T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720418"
+    },
+    {
+      "id": 720419,
+      "utcDate": "2024-09-17T16:45Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "League Phase",
+      "matchday": null,
+      "venue": "Stadion Wankdorf",
+      "referee": null,
+      "home": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "resultNote": "",
+      "source": "https://www.espn.com/soccer/match/_/gameId/720419"
+    }
+  ]
+}

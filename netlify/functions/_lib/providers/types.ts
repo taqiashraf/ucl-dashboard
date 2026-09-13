@@ -23,12 +23,14 @@ export interface Score {
 export interface Match {
   id: number;
   utcDate: string;
+  seasonStart?: number;
   status: MatchStatus;
   minute: number | null;
   period: 'FIRST_HALF' | 'SECOND_HALF' | 'EXTRA_TIME' | 'PENALTIES' | null;
   stage: string;
   matchday: number | null;
   venue: string | null;
+  attendance?: number | null;
   referee: string | null;
   home: TeamRef;
   away: TeamRef;

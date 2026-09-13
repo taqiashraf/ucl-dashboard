@@ -4,7 +4,15 @@ export const isLive = (m: Pick<Match, 'status'>) =>
 export const backoff = (failures: number) =>
   Math.min(60_000, 1_000 * 2 ** Math.min(Math.max(0, failures - 1), 6));
 export function pollingInterval(matches: Match[], now = Date.now()): number {
-  if (matches.some(isLive)) return 30_000;
+  if (
+    matches.some(isLive) ||
+    matches.some(
+      (m) =>
+        ['SCHEDULED', 'TIMED'].includes(m.status) &&
+        Math.abs(Date.parse(m.utcDate) - now) <= 10 * 60_000,
+    )
+  )
+    return 30_000;
   const next = matches
     .filter(
       (m) =>

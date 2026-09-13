@@ -48,3 +48,11 @@ These are future work, not capabilities already delivered. The current project d
 ## Reference
 
 [Relo Metrics explains media exposure and valuation](https://blog.relometrics.com/beyond-exposure). Its system measures exposure attributes and audience data; this independent portfolio does not replicate its proprietary measurement infrastructure.
+
+## Implemented partner-review exercise
+
+The Insights “Review a partner” view now includes fictional partners, a delivery ledger, fee-weighted fulfillment, social engagement rate, explicit missing audience coverage, underdelivery actions and a downloadable Markdown recap. Data is labeled synthetic in the interface and export. The SQL model in `analytics/partner-report.sql` is reconciled by `python3 scripts/check-analytics.py`; the downloadable CSV can be opened in Excel. An Excel workbook, Power BI report, Salesforce integration and PowerPoint deck remain future deliverables.
+
+For a recruiter, demonstrate the Northstar Travel filter: $24,000 allocated fees, 79.2% weighted fulfillment, two underdelivered assets and 4.0% social engagement. Explain why excess delivery on one asset cannot offset an unrelated missed obligation. Then download the recap and show the source ledger and SQL checks.
+
+For football context, recent match briefs compare goals with other games in the selected snapshot and show up to five prior results. They make no claim that football performance causes sponsor exposure or sales.

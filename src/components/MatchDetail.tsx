@@ -1,3 +1,4 @@
+import { MatchAnalysis } from './MatchAnalysis';
 import { useEffect, useRef } from 'react';
 import { MapPin, Clock, X, UserRound } from 'lucide-react';
 import type { Match } from '../types';
@@ -9,11 +10,13 @@ export function MatchDetail({
   onClose,
   demo = false,
   history = false,
+  context = [],
 }: {
   match: Match;
   onClose: () => void;
   demo?: boolean;
   history?: boolean;
+  context?: Match[];
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const detail = useMatch(match.id, !demo && !history);
@@ -111,6 +114,12 @@ export function MatchDetail({
             <dd>{scoreText(m.fullTime)}</dd>
           </div>
         </dl>
+        <p className="section-note">
+          Reported attendance:{' '}
+          {m.attendance?.toLocaleString() ?? 'Not supplied'}. This is not a
+          ticket-sales or revenue figure.
+        </p>
+        <MatchAnalysis match={m} context={context} />
         {detail.isFetching && <p className="quiet">Updating match details…</p>}
         {detail.isError && (
           <p className="quiet">

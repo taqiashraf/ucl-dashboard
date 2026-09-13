@@ -1,0 +1,7 @@
+id,partner,channel,asset,contracted,delivered,fee,impressions,engagements,clicks
+A01,Northstar Travel,Social,Sponsored posts,8,6,12000,360000,14400,1800
+A02,Northstar Travel,Digital,Newsletter placements,4,4,4000,80000,,1200
+A03,Northstar Travel,In venue,Hospitality sessions,4,3,8000,,,
+A04,Summit Audio,Social,Sponsored videos,6,7,15000,700000,28000,2100
+A05,Summit Audio,Digital,Website placements,4,4,6000,240000,,720
+A06,Summit Audio,In venue,Fan-zone activations,4,2,10000,,,

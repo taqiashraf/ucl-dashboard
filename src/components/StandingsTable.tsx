@@ -3,14 +3,16 @@ import { Crest } from './Crest';
 export function StandingsTable({
   rows,
   compact = false,
+  historical = false,
 }: {
   rows: StandingRow[];
   compact?: boolean;
+  historical?: boolean;
 }) {
   return (
     <>
       <div
-        className={`table-scroll ${compact ? 'compact-table' : ''}`}
+        className={`table-scroll ${historical ? 'historical-table' : ''} ${compact ? 'compact-table' : ''}`}
         tabIndex={0}
         aria-label="League standings, scroll for more teams"
       >
@@ -93,17 +95,19 @@ export function StandingsTable({
           </tbody>
         </table>
       </div>
-      <div className="table-legend">
-        <span>
-          <i className="direct-key" />
-          1–8 Round of 16
-        </span>
-        <span>
-          <i className="playoff-key" />
-          9–24 Play-offs
-        </span>
-        <span>25–36 Outside qualification</span>
-      </div>
+      {!historical && (
+        <div className="table-legend">
+          <span>
+            <i className="direct-key" />
+            1–8 Round of 16
+          </span>
+          <span>
+            <i className="playoff-key" />
+            9–24 Play-offs
+          </span>
+          <span>25–36 Outside qualification</span>
+        </div>
+      )}
     </>
   );
 }

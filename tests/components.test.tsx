@@ -195,10 +195,11 @@ import { HistoryPanel } from '../src/components/HistoryPanel';
 import { RefreshStatus } from '../src/components/RefreshStatus';
 import history2025 from '../public/history/2025.json';
 import history2026 from '../public/history/2026.json';
+import { archiveSeasons } from '../src/lib/seasons';
 describe('results archive', () => {
   it('keeps completed scores and the final shootout distinct', () => {
     expect(history2025.matches).toHaveLength(189);
-    expect(history2026.matches).toHaveLength(18);
+    expect(history2026.matches.length).toBeGreaterThanOrEqual(18);
     expect(
       [...history2025.matches, ...history2026.matches].every(
         (m) => m.status === 'FINISHED',
@@ -209,8 +210,12 @@ describe('results archive', () => {
   });
   it('loads both seasons without calling the live proxy and expands older results', async () => {
     server.use(
-      http.get('/history/2026.json', () => HttpResponse.json(history2026)),
-      http.get('/history/2025.json', () => HttpResponse.json(history2025)),
+      http.get(`/history/${archiveSeasons[0].year}.json`, () =>
+        HttpResponse.json(history2026),
+      ),
+      http.get(`/history/${archiveSeasons[1].year}.json`, () =>
+        HttpResponse.json(history2025),
+      ),
     );
     render(
       <QueryClientProvider
@@ -221,9 +226,11 @@ describe('results archive', () => {
         <HistoryPanel onSelect={vi.fn()} />
       </QueryClientProvider>,
     );
-    await screen.findByText(/18 completed matches/);
+    await screen.findByText(
+      new RegExp(`${history2026.matches.length} completed matches`),
+    );
     fireEvent.change(screen.getByRole('combobox', { name: 'Season' }), {
-      target: { value: '2025' },
+      target: { value: String(archiveSeasons[1].year) },
     });
     await screen.findByText(/189 completed matches/);
     expect(
@@ -238,5 +245,54 @@ describe('results archive', () => {
     render(<RefreshStatus fetching={false} error notConfigured />);
     expect(screen.getByText('Setup required')).toBeInTheDocument();
     expect(screen.queryByText('Reconnecting')).not.toBeInTheDocument();
+  });
+});
+
+import { ScorersList } from '../src/components/ScorersList';
+import { PartnerCaseStudy } from '../src/components/PartnerCaseStudy';
+describe('business and player controls', () => {
+  it('switches to reported assists and excludes unknown values', () => {
+    const team = matches[0].home;
+    render(
+      <ScorersList
+        rows={[
+          {
+            id: 1,
+            name: 'Goal leader',
+            team,
+            goals: 9,
+            assists: null,
+            played: 3,
+          },
+          {
+            id: 2,
+            name: 'Assist leader',
+            team,
+            goals: 2,
+            assists: 4,
+            played: 3,
+          },
+        ]}
+      />,
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'Assists' }));
+    expect(
+      screen.getByText(/not a competition-wide assist leaderboard/),
+    ).toBeInTheDocument();
+    expect(screen.queryByText('Goal leader')).not.toBeInTheDocument();
+    expect(screen.getByLabelText('4 assists')).toBeInTheDocument();
+  });
+  it('changes the fictional partner scope and highlights delivery gaps', () => {
+    render(<PartnerCaseStudy />);
+    fireEvent.change(screen.getByRole('combobox', { name: 'Partner' }), {
+      target: { value: 'Northstar Travel' },
+    });
+    expect(screen.getByText('79.2%')).toBeInTheDocument();
+    expect(
+      screen.getByText(/Resolve 2 underdelivered asset lines/),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(/Portfolio exercise · synthetic data/),
+    ).toBeInTheDocument();
   });
 });

@@ -5,7 +5,7 @@ Verified locally on 13 September 2026 using Node 24 and the installed pinned dep
 | Check                              | Result                                                                                       |
 | ---------------------------------- | -------------------------------------------------------------------------------------------- |
 | TypeScript strict + Vite build     | Passed                                                                                       |
-| Vitest / RTL / MSW                 | 52 tests passed across 6 files                                                               |
+| Vitest / RTL / MSW                 | 62 tests passed across 7 files                                                               |
 | ESLint                             | Passed                                                                                       |
 | Prettier                           | Applied; final check included in release checks                                              |
 | Public bundle pattern scan         | Passed                                                                                       |
@@ -48,3 +48,5 @@ The historical reconstruction is a deliberate, labeled fallback to the unavailab
 History verification: static archives contain 18 current-season and 189 prior-season completed matches; tests cover season switching, result pagination and the final shootout. Missing credentials show Setup required. Gitleaks scanned the initial two commits with no leaks.
 
 BI checks: connected dataset loaded 144 matches (18 completed, 126 scheduled); assist coverage 2/20 at test time. Browser verified Arsenal scope (1 completed, 7 scheduled), CPM change from 12 to 20 ($6,000 to $10,000), and no page-wide overflow at effective 411px and 1170px widths. Tests cover rate denominators, missing scores, club filtering, zero-fee scenarios and spreadsheet formula escaping.
+
+Expanded release: 1,015 completed matches across 2019/20–2026/27 (119, 125, 125, 125, 125, 189, 189, 18). Tests cover old-format groups, two-leg ties, 2020 single-leg quarterfinals, season rollover, kickoff polling and capped partner fulfillment. SQL reconciliation passed. Browser verified eight season choices, historical bracket and synthetic partner filter (Northstar: 79.2%, two shortfalls). Archive refresh workflow is prepared, not active until GitHub/Netlify setup.
