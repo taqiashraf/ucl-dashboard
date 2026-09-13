@@ -1,6 +1,6 @@
 {
   "season": "2021/22",
-  "updatedAt": "2026-09-13T18:54:57.212Z",
+  "updatedAt": "2026-09-13T20:05:41.093Z",
   "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20210901-20220831&limit=1000",
   "coverage": "Completed group/league-phase and knockout matches. Qualifying rounds are excluded. Source snapshot; see update date.",
   "matches": [
@@ -40,7 +40,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/634861"
     },
@@ -80,7 +80,7 @@
         "home": 3,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 6–5",
       "source": "https://www.espn.com/soccer/match/_/gameId/634249"
     },
@@ -120,7 +120,7 @@
         "home": 2,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 2–5",
       "source": "https://www.espn.com/soccer/match/_/gameId/634248"
     },
@@ -160,7 +160,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/634247"
     },
@@ -200,7 +200,7 @@
         "home": 4,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/634246"
     },
@@ -240,7 +240,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 0–1",
       "source": "https://www.espn.com/soccer/match/_/gameId/633242"
     },
@@ -280,7 +280,7 @@
         "home": 3,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 6–4",
       "source": "https://www.espn.com/soccer/match/_/gameId/633240"
     },
@@ -320,7 +320,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 1–2",
       "source": "https://www.espn.com/soccer/match/_/gameId/633243"
     },
@@ -360,7 +360,7 @@
         "home": 2,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 5–4",
       "source": "https://www.espn.com/soccer/match/_/gameId/633241"
     },
@@ -400,7 +400,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/633247"
     },
@@ -440,7 +440,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/633245"
     },
@@ -480,7 +480,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/633246"
     },
@@ -520,7 +520,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/633244"
     },
@@ -560,7 +560,7 @@
         "home": 0,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 1–4",
       "source": "https://www.espn.com/soccer/match/_/gameId/622993"
     },
@@ -600,7 +600,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 1–4",
       "source": "https://www.espn.com/soccer/match/_/gameId/622988"
     },
@@ -640,7 +640,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 2–3",
       "source": "https://www.espn.com/soccer/match/_/gameId/622987"
     },
@@ -680,7 +680,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 1–2",
       "source": "https://www.espn.com/soccer/match/_/gameId/622986"
     },
@@ -720,7 +720,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 5–0",
       "source": "https://www.espn.com/soccer/match/_/gameId/622992"
     },
@@ -760,7 +760,7 @@
         "home": 3,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 3–2",
       "source": "https://www.espn.com/soccer/match/_/gameId/622990"
     },
@@ -800,7 +800,7 @@
         "home": 7,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 8–2",
       "source": "https://www.espn.com/soccer/match/_/gameId/622991"
     },
@@ -840,7 +840,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "Aggregate: 2–1",
       "source": "https://www.espn.com/soccer/match/_/gameId/622989"
     },
@@ -880,7 +880,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/623000"
     },
@@ -920,7 +920,7 @@
         "home": 2,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622994"
     },
@@ -960,7 +960,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622997"
     },
@@ -1000,7 +1000,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622996"
     },
@@ -1040,7 +1040,7 @@
         "home": 0,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622998"
     },
@@ -1080,7 +1080,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622995"
     },
@@ -1120,7 +1120,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/623001"
     },
@@ -1160,7 +1160,7 @@
         "home": 0,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/622999"
     },
@@ -1200,7 +1200,7 @@
         "home": 2,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618700"
     },
@@ -1240,7 +1240,7 @@
         "home": 3,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618696"
     },
@@ -1280,7 +1280,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618697"
     },
@@ -1320,7 +1320,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618701"
     },
@@ -1360,7 +1360,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618699"
     },
@@ -1400,7 +1400,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618698"
     },
@@ -1440,7 +1440,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618703"
     },
@@ -1480,7 +1480,7 @@
         "home": 3,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618702"
     },
@@ -1520,7 +1520,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618708"
     },
@@ -1560,7 +1560,7 @@
         "home": 4,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618709"
     },
@@ -1600,7 +1600,7 @@
         "home": 5,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618705"
     },
@@ -1640,7 +1640,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618704"
     },
@@ -1680,7 +1680,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618707"
     },
@@ -1720,7 +1720,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618706"
     },
@@ -1760,7 +1760,7 @@
         "home": 4,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618710"
     },
@@ -1800,7 +1800,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618711"
     },
@@ -1840,7 +1840,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618714"
     },
@@ -1880,7 +1880,7 @@
         "home": 0,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618716"
     },
@@ -1920,7 +1920,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618713"
     },
@@ -1960,7 +1960,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618715"
     },
@@ -2000,7 +2000,7 @@
         "home": 0,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618717"
     },
@@ -2040,7 +2040,7 @@
         "home": 3,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618712"
     },
@@ -2080,7 +2080,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618718"
     },
@@ -2120,7 +2120,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618719"
     },
@@ -2160,7 +2160,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618721"
     },
@@ -2200,7 +2200,7 @@
         "home": 4,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618722"
     },
@@ -2240,7 +2240,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618723"
     },
@@ -2280,7 +2280,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618725"
     },
@@ -2320,7 +2320,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618724"
     },
@@ -2360,7 +2360,7 @@
         "home": 3,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618720"
     },
@@ -2400,7 +2400,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618726"
     },
@@ -2440,7 +2440,7 @@
         "home": 0,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618727"
     },
@@ -2480,7 +2480,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618728"
     },
@@ -2520,7 +2520,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618729"
     },
@@ -2560,7 +2560,7 @@
         "home": 4,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618731"
     },
@@ -2600,7 +2600,7 @@
         "home": 2,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618733"
     },
@@ -2640,7 +2640,7 @@
         "home": 1,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618732"
     },
@@ -2680,7 +2680,7 @@
         "home": 4,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618730"
     },
@@ -2720,7 +2720,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618734"
     },
@@ -2760,7 +2760,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618735"
     },
@@ -2800,7 +2800,7 @@
         "home": 2,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618739"
     },
@@ -2840,7 +2840,7 @@
         "home": 5,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618737"
     },
@@ -2880,7 +2880,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618736"
     },
@@ -2920,7 +2920,7 @@
         "home": 4,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618741"
     },
@@ -2960,7 +2960,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618738"
     },
@@ -3000,7 +3000,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618740"
     },
@@ -3040,7 +3040,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618742"
     },
@@ -3080,7 +3080,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618743"
     },
@@ -3120,7 +3120,7 @@
         "home": 0,
         "away": 4
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618745"
     },
@@ -3160,7 +3160,7 @@
         "home": 4,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618747"
     },
@@ -3200,7 +3200,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618748"
     },
@@ -3240,7 +3240,7 @@
         "home": 3,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618744"
     },
@@ -3280,7 +3280,7 @@
         "home": 1,
         "away": 4
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618749"
     },
@@ -3320,7 +3320,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618746"
     },
@@ -3360,7 +3360,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618750"
     },
@@ -3400,7 +3400,7 @@
         "home": 3,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618751"
     },
@@ -3440,7 +3440,7 @@
         "home": 4,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618752"
     },
@@ -3480,7 +3480,7 @@
         "home": 2,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618754"
     },
@@ -3520,7 +3520,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618755"
     },
@@ -3560,7 +3560,7 @@
         "home": 3,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618753"
     },
@@ -3600,7 +3600,7 @@
         "home": 3,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618756"
     },
@@ -3640,7 +3640,7 @@
         "home": 0,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618757"
     },
@@ -3680,7 +3680,7 @@
         "home": 1,
         "away": 4
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618759"
     },
@@ -3720,7 +3720,7 @@
         "home": 1,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618758"
     },
@@ -3760,7 +3760,7 @@
         "home": 5,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618762"
     },
@@ -3800,7 +3800,7 @@
         "home": 3,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618760"
     },
@@ -3840,7 +3840,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618761"
     },
@@ -3880,7 +3880,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618765"
     },
@@ -3920,7 +3920,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618763"
     },
@@ -3960,7 +3960,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618764"
     },
@@ -4000,7 +4000,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618767"
     },
@@ -4040,7 +4040,7 @@
         "home": 4,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618766"
     },
@@ -4080,7 +4080,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618768"
     },
@@ -4120,7 +4120,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618773"
     },
@@ -4160,7 +4160,7 @@
         "home": 1,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618771"
     },
@@ -4200,7 +4200,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618772"
     },
@@ -4240,7 +4240,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618769"
     },
@@ -4280,7 +4280,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618770"
     },
@@ -4320,7 +4320,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618774"
     },
@@ -4360,7 +4360,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618775"
     },
@@ -4400,7 +4400,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618777"
     },
@@ -4440,7 +4440,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618779"
     },
@@ -4480,7 +4480,7 @@
         "home": 0,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618781"
     },
@@ -4520,7 +4520,7 @@
         "home": 3,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618778"
     },
@@ -4560,7 +4560,7 @@
         "home": 6,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618780"
     },
@@ -4600,7 +4600,7 @@
         "home": 1,
         "away": 5
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618776"
     },
@@ -4640,7 +4640,7 @@
         "home": 1,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618782"
     },
@@ -4680,7 +4680,7 @@
         "home": 2,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618783"
     },
@@ -4720,7 +4720,7 @@
         "home": 0,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618785"
     },
@@ -4760,7 +4760,7 @@
         "home": 1,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618789"
     },
@@ -4800,7 +4800,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618786"
     },
@@ -4840,7 +4840,7 @@
         "home": 0,
         "away": 0
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618788"
     },
@@ -4880,7 +4880,7 @@
         "home": 0,
         "away": 3
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618787"
     },
@@ -4920,7 +4920,7 @@
         "home": 2,
         "away": 2
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618784"
     },
@@ -4960,7 +4960,7 @@
         "home": 1,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618791"
     },
@@ -5000,7 +5000,7 @@
         "home": 2,
         "away": 1
       },
-      "updatedAt": "2026-09-13T18:54:57.212Z",
+      "updatedAt": "2026-09-13T20:05:41.093Z",
       "resultNote": "",
       "source": "https://www.espn.com/soccer/match/_/gameId/618790"
     }
