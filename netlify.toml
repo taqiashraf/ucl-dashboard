@@ -4,6 +4,8 @@
   functions = "netlify/functions"
 [build.environment]
   NODE_VERSION = "24"
+  # Public configuration, not credentials. Keep FOOTBALL_API_KEY scanned.
+  SECRETS_SCAN_OMIT_KEYS = "DATA_PROVIDER,ALLOWED_ORIGIN"
 [functions]
   node_bundler = "esbuild"
 [dev]

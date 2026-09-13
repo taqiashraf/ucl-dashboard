@@ -417,7 +417,7 @@ export function InsightsPanel({
                     ? `Use the ${stats.scheduled} scheduled fixtures to shortlist activation dates, then overlay partner rights, broadcast markets and campaign deadlines.`
                     : 'Use the completed season as a recap baseline, then load the connected feed to plan upcoming activations.'}{' '}
                   {stats.clubs[0]
-                    ? `${stats.clubs[0].name} leads scoring in this scope (${stats.clubs[0].goals} goals across ${stats.clubs[0].played} {stats.clubs[0].played===1?'match':'matches'}), making it a football-content research lead—not evidence of sponsorship value.`
+                    ? `${stats.clubs[0].name} leads scoring in this scope (${stats.clubs[0].goals} goals across ${stats.clubs[0].played} ${stats.clubs[0].played === 1 ? 'match' : 'matches'}), making it a football-content research lead—not evidence of sponsorship value.`
                     : ''}
                 </p>
               </div>
