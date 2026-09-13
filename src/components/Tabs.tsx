@@ -1,9 +1,16 @@
-import { CalendarDays, ListOrdered, Goal, History } from 'lucide-react';
-export type Tab = 'matches' | 'table' | 'scorers' | 'history';
+import {
+  CalendarDays,
+  ListOrdered,
+  Goal,
+  History,
+  BarChart3,
+} from 'lucide-react';
+export type Tab = 'matches' | 'table' | 'scorers' | 'history' | 'insights';
 const tabs = [
   { id: 'matches', label: 'Matches', icon: CalendarDays },
   { id: 'table', label: 'Table', icon: ListOrdered },
   { id: 'scorers', label: 'Scorers', icon: Goal },
+  { id: 'insights', label: 'Insights', icon: BarChart3 },
   { id: 'history', label: 'History', icon: History },
 ] as const;
 export function Tabs({

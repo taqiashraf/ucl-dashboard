@@ -9,6 +9,12 @@ export function ScorersList({
 }) {
   return (
     <div className="scorers">
+      {!compact && (
+        <p className="section-note">
+          Assists and appearances display when supplied by the provider. A dash
+          means unavailable, not zero. This list is ranked by goals.
+        </p>
+      )}
       <div className="scorer-columns">
         <span>Player</span>
         <span>{!compact ? 'Assists / played / ' : ''}Goals</span>

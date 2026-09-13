@@ -5,7 +5,7 @@ Verified locally on 13 September 2026 using Node 24 and the installed pinned dep
 | Check                              | Result                                                                                       |
 | ---------------------------------- | -------------------------------------------------------------------------------------------- |
 | TypeScript strict + Vite build     | Passed                                                                                       |
-| Vitest / RTL / MSW                 | 47 tests passed across 5 files                                                               |
+| Vitest / RTL / MSW                 | 52 tests passed across 6 files                                                               |
 | ESLint                             | Passed                                                                                       |
 | Prettier                           | Applied; final check included in release checks                                              |
 | Public bundle pattern scan         | Passed                                                                                       |
@@ -46,3 +46,5 @@ The original brief cannot be fully accepted until a public HTTPS deployment is r
 The historical reconstruction is a deliberate, labeled fallback to the unavailable live snapshot. Contract tests use explicit synthetic fixtures; they are not presented as captured provider responses. Account setup and deployment instructions are in START-HERE.md and README.md.
 
 History verification: static archives contain 18 current-season and 189 prior-season completed matches; tests cover season switching, result pagination and the final shootout. Missing credentials show Setup required. Gitleaks scanned the initial two commits with no leaks.
+
+BI checks: connected dataset loaded 144 matches (18 completed, 126 scheduled); assist coverage 2/20 at test time. Browser verified Arsenal scope (1 completed, 7 scheduled), CPM change from 12 to 20 ($6,000 to $10,000), and no page-wide overflow at effective 411px and 1170px widths. Tests cover rate denominators, missing scores, club filtering, zero-fee scenarios and spreadsheet formula escaping.

@@ -155,3 +155,7 @@ Local verification: 44 tests pass; build and bundle checks pass. The complete ch
 ## Recent results archive
 
 The History tab works without credentials and includes completed 2026/27 and 2025/26 league-phase and knockout results. Static ESPN snapshots were retrieved on 13 September 2026; each match links to its source. Shootout and aggregate scores are shown separately. Refresh via `node scripts/update-history.mjs` followed by a build. This archive is independent of the 2024/25 replay and keyed live feed.
+
+## Partnership intelligence
+
+Open `/?view=insights` for measured football KPIs, a fixture calendar, club scoring, player contributions, club/dataset filters and a CSV export for Excel. The commercial planning lab uses explicitly illustrative inputs for CPM-equivalent valuation and sensitivity; it is not measured sponsorship value or ROI. The coverage panel makes missing assists and absent commercial data explicit. See [the portfolio case study](docs/PORTFOLIO-CASE-STUDY.md) for definitions and an interview walkthrough.

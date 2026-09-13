@@ -6,6 +6,7 @@ import {
   useScorers,
   useDemo,
 } from './hooks/useMatches';
+import { InsightsPanel } from './components/InsightsPanel';
 import { HistoryPanel } from './components/HistoryPanel';
 import { Tabs, type Tab } from './components/Tabs';
 import { MatchRow } from './components/MatchRow';
@@ -30,7 +31,9 @@ function App() {
   const [tab, setTab] = useState<Tab>(
     new URLSearchParams(window.location.search).get('view') === 'history'
       ? 'history'
-      : 'matches',
+      : new URLSearchParams(window.location.search).get('view') === 'insights'
+        ? 'insights'
+        : 'matches',
   );
   const [selected, setSelected] = useState<Match | null>(null);
   const [theme, setTheme] = useState<boolean | null>(null);
@@ -41,7 +44,8 @@ function App() {
   );
   const dark = theme ?? systemDark;
   const history = tab === 'history';
-  const demo = demoMode() && !history;
+  const insights = tab === 'insights';
+  const demo = demoMode() && !history && !insights;
   const archive = useDemo(demo);
   const matches = useMatches(!demo && !history);
   const standings = useStandings(!demo && !history);
@@ -148,17 +152,28 @@ function App() {
               UEFA Champions League / {history ? 'Results archive' : season}
             </p>
             <h1>
-              Every match.
-              <br className="mobile-break" /> One place.
+              {insights ? (
+                <>
+                  The business
+                  <br className="mobile-break" /> of matchday.
+                </>
+              ) : (
+                <>
+                  Every match.
+                  <br className="mobile-break" /> One place.
+                </>
+              )}
             </h1>
           </div>
           <span className="heading-note">
-            {demo
-              ? 'League phase / Matchday 2'
-              : 'Fixtures, results & the race to qualify'}
+            {insights
+              ? 'Performance, planning & partnership decisions'
+              : demo
+                ? 'League phase / Matchday 2'
+                : 'Fixtures, results & the race to qualify'}
           </span>
         </div>
-        {!history && (
+        {!history && !insights && (
           <LiveStrip
             matches={loading || review === 'error' ? [] : data}
             onSelect={setSelected}
@@ -230,8 +245,17 @@ function App() {
               </>
             )}
           </section>
+          {insights && (
+            <InsightsPanel
+              matches={matches.data?.data ?? []}
+              scorers={scorers.data?.data ?? []}
+              updatedAt={matches.data?.updatedAt}
+              error={!!matches.error}
+              loading={matches.isPending && matches.isFetching}
+            />
+          )}
           {history && <HistoryPanel onSelect={setSelected} />}
-          {!history && (
+          {!history && !insights && (
             <aside className="side-rail">
               <section
                 id="panel-table"
