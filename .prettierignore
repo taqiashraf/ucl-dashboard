@@ -1,0 +1,9 @@
+node_modules
+dist
+.netlify
+.git
+public/demo/snapshot.json
+public/fonts
+docs/screenshots
+package-lock.json
+work

@@ -1,0 +1,2325 @@
+{
+  "mode": "historical-reconstruction",
+  "season": "2024/25",
+  "replayAt": "2024-10-01T19:50:00.000Z",
+  "capturedAt": "2026-09-13T17:13:27.440Z",
+  "provenance": "Historical half-time reconstruction from ESPN archived match reports, retrieved after the matches. This is not an original live API capture. Original dates and score facts are retained. PAUSED denotes the reconstructed half-time state.",
+  "sources": [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20240917",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20240918",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20240919",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20241001",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20241002",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720443",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720442",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720437",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720438",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720440",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720441",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=720439"
+  ],
+  "standingsNote": "Before the evening matches on 1 October. Recomputed from completed results; unresolved ties are alphabetical, not official UEFA ranking.",
+  "scorersNote": "Goals through the reconstructed half-time on 1 October. Assists and appearances are unavailable in this archive.",
+  "matches": [
+    {
+      "id": 720418,
+      "utcDate": "2024-09-17T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Allianz Stadium",
+      "referee": null,
+      "home": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "away": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720419,
+      "utcDate": "2024-09-17T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Stadion Wankdorf",
+      "referee": null,
+      "home": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "away": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720365,
+      "utcDate": "2024-09-17T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": null,
+      "home": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "away": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720422,
+      "utcDate": "2024-09-17T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Allianz Arena",
+      "referee": null,
+      "home": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "away": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "score": {
+        "home": 9,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 9,
+        "away": 2
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720420,
+      "utcDate": "2024-09-17T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Estadio Bernabéu",
+      "referee": null,
+      "home": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "away": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720421,
+      "utcDate": "2024-09-17T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Estádio José Alvalade",
+      "referee": null,
+      "home": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "away": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720424,
+      "utcDate": "2024-09-18T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Renato Dall'Ara",
+      "referee": null,
+      "home": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "away": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720423,
+      "utcDate": "2024-09-18T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Generali-Arena",
+      "referee": null,
+      "home": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "away": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 3,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720427,
+      "utcDate": "2024-09-18T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Celtic Park",
+      "referee": null,
+      "home": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "away": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 5,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720428,
+      "utcDate": "2024-09-18T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Jan Breydelstadion",
+      "referee": null,
+      "home": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "away": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720426,
+      "utcDate": "2024-09-18T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Etihad Stadium",
+      "referee": null,
+      "home": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720425,
+      "utcDate": "2024-09-18T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Parc des Princes",
+      "referee": null,
+      "home": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "away": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720430,
+      "utcDate": "2024-09-19T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Stadion Feijenoord",
+      "referee": null,
+      "home": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "away": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 4
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720429,
+      "utcDate": "2024-09-19T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Rajko Mitic Stadium",
+      "referee": null,
+      "home": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "away": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 2
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720434,
+      "utcDate": "2024-09-19T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Stade Louis II",
+      "referee": null,
+      "home": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "away": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720431,
+      "utcDate": "2024-09-19T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "New Balance Arena",
+      "referee": null,
+      "home": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "away": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720432,
+      "utcDate": "2024-09-19T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Riyadh Air Metropolitano",
+      "referee": null,
+      "home": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "away": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720433,
+      "utcDate": "2024-09-19T19:00:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 1,
+      "venue": "Stade Municipal de Roudourou",
+      "referee": null,
+      "home": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "away": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720435,
+      "utcDate": "2024-10-01T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Red Bull Arena Salzburg",
+      "referee": null,
+      "home": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "away": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 0,
+        "away": 4
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720436,
+      "utcDate": "2024-10-01T16:45:00.000Z",
+      "status": "FINISHED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "MHPArena",
+      "referee": null,
+      "home": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720443,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Emirates Stadium",
+      "referee": "Slavko Vincici",
+      "home": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "away": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 2,
+        "away": 0
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720442,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "referee": "Erik Lambrechts",
+      "home": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "away": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 3,
+        "away": 0
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720437,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "BayArena",
+      "referee": "Sandro Scharer",
+      "home": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "away": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720438,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "SIGNAL IDUNA PARK",
+      "referee": "José María Sánchez Martínez",
+      "home": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "away": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 5,
+        "away": 1
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720440,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Stadio Giuseppe Meazza",
+      "referee": "Felix Zwayer",
+      "home": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "away": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720441,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Philips Stadion",
+      "referee": "Marco Guida",
+      "home": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "away": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720439,
+      "utcDate": "2024-10-01T19:00:00.000Z",
+      "status": "PAUSED",
+      "minute": 45,
+      "period": "FIRST_HALF",
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Národny Futbalovy Stadión",
+      "referee": "Davide Massa",
+      "home": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 2
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720445,
+      "utcDate": "2024-10-02T16:45:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Municipal de Montilivi",
+      "referee": null,
+      "home": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "away": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720444,
+      "utcDate": "2024-10-02T16:45:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "VELTINS-Arena",
+      "referee": null,
+      "home": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720451,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Villa Park",
+      "referee": null,
+      "home": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "away": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720447,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Estádio da Luz",
+      "referee": null,
+      "home": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "away": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720446,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Maksimir",
+      "referee": null,
+      "home": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "away": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720448,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "referee": null,
+      "home": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720366,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Anfield",
+      "referee": null,
+      "home": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720449,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "Red Bull Arena",
+      "referee": null,
+      "home": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "away": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    },
+    {
+      "id": 720450,
+      "utcDate": "2024-10-02T19:00:00.000Z",
+      "status": "TIMED",
+      "minute": null,
+      "period": null,
+      "stage": "LEAGUE_STAGE",
+      "matchday": 2,
+      "venue": "28 Black Arena",
+      "referee": null,
+      "home": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "away": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      },
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "updatedAt": "2024-10-01T19:50:00.000Z"
+    }
+  ],
+  "standings": [
+    {
+      "position": 1,
+      "team": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "played": 2,
+      "won": 2,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 1,
+      "goalDifference": 5,
+      "points": 6
+    },
+    {
+      "position": 2,
+      "team": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
+      "goalDifference": 3,
+      "points": 4
+    },
+    {
+      "position": 3,
+      "team": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
+      "goalDifference": 7,
+      "points": 3
+    },
+    {
+      "position": 4,
+      "team": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalDifference": 4,
+      "points": 3
+    },
+    {
+      "position": 5,
+      "team": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 0,
+      "goalDifference": 4,
+      "points": 3
+    },
+    {
+      "position": 6,
+      "team": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 0,
+      "goalDifference": 3,
+      "points": 3
+    },
+    {
+      "position": 7,
+      "team": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 0,
+      "goalDifference": 3,
+      "points": 3
+    },
+    {
+      "position": 8,
+      "team": {
+        "id": 364,
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "tla": "LIV",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "goalDifference": 2,
+      "points": 3
+    },
+    {
+      "position": 9,
+      "team": {
+        "id": 111,
+        "name": "Juventus",
+        "shortName": "Juventus",
+        "tla": "JUV",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "goalDifference": 2,
+      "points": 3
+    },
+    {
+      "position": 10,
+      "team": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "goalDifference": 2,
+      "points": 3
+    },
+    {
+      "position": 11,
+      "team": {
+        "id": 2250,
+        "name": "Sporting CP",
+        "shortName": "Sporting",
+        "tla": "SCP",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "points": 3
+    },
+    {
+      "position": 12,
+      "team": {
+        "id": 1929,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "tla": "SLB",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalDifference": 1,
+      "points": 3
+    },
+    {
+      "position": 13,
+      "team": {
+        "id": 174,
+        "name": "AS Monaco",
+        "shortName": "Monaco",
+        "tla": "MON",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalDifference": 1,
+      "points": 3
+    },
+    {
+      "position": 14,
+      "team": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalDifference": 1,
+      "points": 3
+    },
+    {
+      "position": 15,
+      "team": {
+        "id": 160,
+        "name": "Paris Saint-Germain",
+        "shortName": "PSG",
+        "tla": "PSG",
+        "crest": null
+      },
+      "played": 1,
+      "won": 1,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "points": 3
+    },
+    {
+      "position": 16,
+      "team": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 17,
+      "team": {
+        "id": 105,
+        "name": "Atalanta",
+        "shortName": "Atalanta",
+        "tla": "ATA",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 18,
+      "team": {
+        "id": 107,
+        "name": "Bologna",
+        "shortName": "Bologna",
+        "tla": "BOL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 19,
+      "team": {
+        "id": 110,
+        "name": "Internazionale",
+        "shortName": "Inter Milan",
+        "tla": "INT",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 20,
+      "team": {
+        "id": 382,
+        "name": "Manchester City",
+        "shortName": "Man City",
+        "tla": "MNC",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 21,
+      "team": {
+        "id": 493,
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar",
+        "tla": "SHK",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 1
+    },
+    {
+      "position": 22,
+      "team": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalDifference": -2,
+      "points": 1
+    },
+    {
+      "position": 23,
+      "team": {
+        "id": 83,
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "tla": "BAR",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 0
+    },
+    {
+      "position": 24,
+      "team": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 0
+    },
+    {
+      "position": 25,
+      "team": {
+        "id": 3746,
+        "name": "SK Sturm Graz",
+        "shortName": "Sturm Graz",
+        "tla": "STG",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 0
+    },
+    {
+      "position": 26,
+      "team": {
+        "id": 2290,
+        "name": "Red Star Belgrade",
+        "shortName": "Red Star",
+        "tla": "RSB",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "points": 0
+    },
+    {
+      "position": 27,
+      "team": {
+        "id": 9812,
+        "name": "Girona",
+        "shortName": "Girona",
+        "tla": "GIR",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 1,
+      "goalDifference": -1,
+      "points": 0
+    },
+    {
+      "position": 28,
+      "team": {
+        "id": 148,
+        "name": "PSV Eindhoven",
+        "shortName": "PSV",
+        "tla": "PSV",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
+      "goalDifference": -2,
+      "points": 0
+    },
+    {
+      "position": 29,
+      "team": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
+      "goalDifference": -2,
+      "points": 0
+    },
+    {
+      "position": 30,
+      "team": {
+        "id": 166,
+        "name": "Lille",
+        "shortName": "Lille",
+        "tla": "LILL",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 2,
+      "goalDifference": -2,
+      "points": 0
+    },
+    {
+      "position": 31,
+      "team": {
+        "id": 570,
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "tla": "BRU",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 3,
+      "goalDifference": -3,
+      "points": 0
+    },
+    {
+      "position": 32,
+      "team": {
+        "id": 2722,
+        "name": "Young Boys",
+        "shortName": "Young Boys",
+        "tla": "YB",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 3,
+      "goalDifference": -3,
+      "points": 0
+    },
+    {
+      "position": 33,
+      "team": {
+        "id": 521,
+        "name": "Slovan Bratislava",
+        "shortName": "S Bratislava",
+        "tla": "SLB",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 5,
+      "goalDifference": -4,
+      "points": 0
+    },
+    {
+      "position": 34,
+      "team": {
+        "id": 142,
+        "name": "Feyenoord Rotterdam",
+        "shortName": "Feyenoord",
+        "tla": "FEY",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 4,
+      "goalDifference": -4,
+      "points": 0
+    },
+    {
+      "position": 35,
+      "team": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 9,
+      "goalDifference": -7,
+      "points": 0
+    },
+    {
+      "position": 36,
+      "team": {
+        "id": 2790,
+        "name": "RB Salzburg",
+        "shortName": "RB Salzburg",
+        "tla": "SLZ",
+        "crest": null
+      },
+      "played": 2,
+      "won": 0,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 0,
+      "goalsAgainst": 7,
+      "goalDifference": -7,
+      "points": 0
+    }
+  ],
+  "scorers": [
+    {
+      "id": 142200,
+      "name": "Harry Kane",
+      "team": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "goals": 4,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 308246,
+      "name": "Abdallah Sima",
+      "team": {
+        "id": 6997,
+        "name": "Brest",
+        "shortName": "Brest",
+        "tla": "BRE",
+        "crest": null
+      },
+      "goals": 3,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 274913,
+      "name": "Karim Adeyemi",
+      "team": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "goals": 3,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 286347,
+      "name": "Daizen Maeda",
+      "team": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 303748,
+      "name": "Florian Wirtz",
+      "team": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 339879,
+      "name": "Jamie Gittens",
+      "team": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 235669,
+      "name": "Kaan Kairinen",
+      "team": {
+        "id": 433,
+        "name": "Sparta Prague",
+        "shortName": "Sparta",
+        "tla": "SPP",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 286831,
+      "name": "Michael Olise",
+      "team": {
+        "id": 132,
+        "name": "Bayern Munich",
+        "shortName": "Bayern",
+        "tla": "MUN",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 186381,
+      "name": "Serhou Guirassy",
+      "team": {
+        "id": 124,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund",
+        "tla": "DOR",
+        "crest": null
+      },
+      "goals": 2,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 288958,
+      "name": "Adam Idah",
+      "team": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 166396,
+      "name": "Alejandro Grimaldo",
+      "team": {
+        "id": 131,
+        "name": "Bayer Leverkusen",
+        "shortName": "Leverkusen",
+        "tla": "B04",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 304799,
+      "name": "Amadou Onana",
+      "team": {
+        "id": 362,
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "tla": "AVL",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 140416,
+      "name": "Antoine Griezmann",
+      "team": {
+        "id": 1068,
+        "name": "Atlético Madrid",
+        "shortName": "Atlético",
+        "tla": "ATM",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 169438,
+      "name": "Antonio Rüdiger",
+      "team": {
+        "id": 86,
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "tla": "RMA",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 314177,
+      "name": "Arne Engels",
+      "team": {
+        "id": 256,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "tla": "CEL",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 289155,
+      "name": "Benjamin Sesko",
+      "team": {
+        "id": 11420,
+        "name": "RB Leipzig",
+        "shortName": "RB Leipzig",
+        "tla": "RBL",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 182097,
+      "name": "Bruno Petkovic",
+      "team": {
+        "id": 597,
+        "name": "Dinamo Zagreb",
+        "shortName": "Dinamo Zagreb",
+        "tla": "DZG",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 280555,
+      "name": "Bukayo Saka",
+      "team": {
+        "id": 359,
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "tla": "ARS",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 225607,
+      "name": "Christian Pulisic",
+      "team": {
+        "id": 103,
+        "name": "AC Milan",
+        "shortName": "Milan",
+        "tla": "MIL",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    },
+    {
+      "id": 273300,
+      "name": "Deniz Undav",
+      "team": {
+        "id": 134,
+        "name": "VfB Stuttgart",
+        "shortName": "Stuttgart",
+        "tla": "VFB",
+        "crest": null
+      },
+      "goals": 1,
+      "assists": null,
+      "played": null
+    }
+  ]
+}
