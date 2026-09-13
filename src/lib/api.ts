@@ -37,6 +37,9 @@ export async function getFeed<T>(
       typeof body.error === 'string' ? body.error : 'upstream_unavailable',
     );
   }
+  if (!response.headers.get('content-type')?.includes('application/json')) {
+    throw new ApiError(503, 1, 300, 'feed_not_configured');
+  }
   failures.delete(route);
   return response.json();
 }

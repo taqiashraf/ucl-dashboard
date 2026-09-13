@@ -190,3 +190,53 @@ describe('matchday interface', () => {
       .visibilityState;
   });
 });
+
+import { HistoryPanel } from '../src/components/HistoryPanel';
+import { RefreshStatus } from '../src/components/RefreshStatus';
+import history2025 from '../public/history/2025.json';
+import history2026 from '../public/history/2026.json';
+describe('results archive', () => {
+  it('keeps completed scores and the final shootout distinct', () => {
+    expect(history2025.matches).toHaveLength(189);
+    expect(history2026.matches).toHaveLength(18);
+    expect(
+      [...history2025.matches, ...history2026.matches].every(
+        (m) => m.status === 'FINISHED',
+      ),
+    ).toBe(true);
+    expect(history2025.matches[0].score).toEqual({ home: 1, away: 1 });
+    expect(history2025.matches[0].resultNote).toContain('Penalties: 4–3');
+  });
+  it('loads both seasons without calling the live proxy and expands older results', async () => {
+    server.use(
+      http.get('/history/2026.json', () => HttpResponse.json(history2026)),
+      http.get('/history/2025.json', () => HttpResponse.json(history2025)),
+    );
+    render(
+      <QueryClientProvider
+        client={
+          new QueryClient({ defaultOptions: { queries: { retry: false } } })
+        }
+      >
+        <HistoryPanel onSelect={vi.fn()} />
+      </QueryClientProvider>,
+    );
+    await screen.findByText(/18 completed matches/);
+    fireEvent.change(screen.getByRole('combobox', { name: 'Season' }), {
+      target: { value: '2025' },
+    });
+    await screen.findByText(/189 completed matches/);
+    expect(
+      screen.getAllByRole('button', { name: /Match details/ }),
+    ).toHaveLength(24);
+    fireEvent.click(screen.getByRole('button', { name: /Show more results/ }));
+    expect(
+      screen.getAllByRole('button', { name: /Match details/ }),
+    ).toHaveLength(48);
+  });
+  it('identifies missing setup instead of claiming to reconnect', () => {
+    render(<RefreshStatus fetching={false} error notConfigured />);
+    expect(screen.getByText('Setup required')).toBeInTheDocument();
+    expect(screen.queryByText('Reconnecting')).not.toBeInTheDocument();
+  });
+});

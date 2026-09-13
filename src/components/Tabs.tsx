@@ -1,9 +1,10 @@
-import { CalendarDays, ListOrdered, Goal } from 'lucide-react';
-export type Tab = 'matches' | 'table' | 'scorers';
+import { CalendarDays, ListOrdered, Goal, History } from 'lucide-react';
+export type Tab = 'matches' | 'table' | 'scorers' | 'history';
 const tabs = [
   { id: 'matches', label: 'Matches', icon: CalendarDays },
   { id: 'table', label: 'Table', icon: ListOrdered },
   { id: 'scorers', label: 'Scorers', icon: Goal },
+  { id: 'history', label: 'History', icon: History },
 ] as const;
 export function Tabs({
   active,
@@ -27,13 +28,13 @@ export function Tabs({
             onKeyDown={(e) => {
               const next =
                 e.key === 'ArrowRight'
-                  ? (index + 1) % 3
+                  ? (index + 1) % tabs.length
                   : e.key === 'ArrowLeft'
-                    ? (index + 2) % 3
+                    ? (index + tabs.length - 1) % tabs.length
                     : e.key === 'Home'
                       ? 0
                       : e.key === 'End'
-                        ? 2
+                        ? tabs.length - 1
                         : null;
               if (next !== null) {
                 e.preventDefault();

@@ -36,3 +36,11 @@ Keep the key private. Do not put it into chat, GitHub, or a variable beginning w
 5. Open the public URL. Use `?demo=1` for the historical replay. Follow the production verification checklist in [README.md](README.md) before sharing it with recruiters.
 
 Your current project has not been published: no hosting account, GitHub account, or API key was available during the build. Account creation and live deployment remain necessary. GitHub can be skipped for a manual Netlify CLI deployment, but it is needed for the included GitHub Actions workflow and is the recommended portfolio path.
+
+## Browse recent results now
+
+Open http://localhost:8888/?view=history and use the Season selector. The archive contains 18 completed 2026/27 matches and 189 from 2025/26, retrieved on 13 September 2026. It includes league-phase and knockout matches, not qualifying rounds. Penalty and aggregate scores are kept separate from match scores. No API account is needed for this static archive.
+
+The 2024/25 historical demo is a separate frozen replay. The Matchday logo returns to live mode. “Setup required” means the server needs `FOOTBALL_API_KEY` and `ALLOWED_ORIGIN` from `.env.example`; refreshing alone cannot connect it. After adding these privately to `.env`, restart `npm run dev:netlify`. GitHub and Netlify accounts are only needed for the publishing workflow, not local browsing.
+
+To refresh the results archive, run `node scripts/update-history.mjs`, then `npm run build`.

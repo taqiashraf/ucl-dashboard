@@ -151,3 +151,7 @@ Local verification: 44 tests pass; build and bundle checks pass. The complete ch
 ## Licence
 
 [MIT](LICENSE). Font licenses are included. Club and competition names belong to their owners. This project is not affiliated with UEFA.
+
+## Recent results archive
+
+The History tab works without credentials and includes completed 2026/27 and 2025/26 league-phase and knockout results. Static ESPN snapshots were retrieved on 13 September 2026; each match links to its source. Shootout and aggregate scores are shown separately. Refresh via `node scripts/update-history.mjs` followed by a build. This archive is independent of the 2024/25 replay and keyed live feed.

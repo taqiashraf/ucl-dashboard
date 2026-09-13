@@ -8,14 +8,16 @@ export function MatchDetail({
   match,
   onClose,
   demo = false,
+  history = false,
 }: {
   match: Match;
   onClose: () => void;
   demo?: boolean;
+  history?: boolean;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
-  const detail = useMatch(match.id, !demo);
-  const m = detail.data?.data ?? match;
+  const detail = useMatch(match.id, !demo && !history);
+  const m = history ? match : (detail.data?.data ?? match);
   useEffect(() => {
     const el = dialog.current;
     const previous = document.activeElement as HTMLElement;
@@ -37,7 +39,13 @@ export function MatchDetail({
     >
       <div className="detail-inner">
         <div className="detail-heading">
-          <span>{demo ? 'Historical replay' : 'Match centre'}</span>
+          <span>
+            {history
+              ? 'Archived result'
+              : demo
+                ? 'Historical replay'
+                : 'Match centre'}
+          </span>
           <button
             autoFocus
             onClick={onClose}
@@ -62,6 +70,14 @@ export function MatchDetail({
         <p className="detail-status">
           {m.status === 'PAUSED' ? 'Half-time' : stageLabel(m.status)}
         </p>
+        {m.resultNote && <p className="detail-status">{m.resultNote}</p>}
+        {m.source && (
+          <p>
+            <a href={m.source} target="_blank" rel="noreferrer">
+              View match source
+            </a>
+          </p>
+        )}
         <dl className="detail-facts">
           <div>
             <dt>

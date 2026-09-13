@@ -6,6 +6,7 @@ import {
   useScorers,
   useDemo,
 } from './hooks/useMatches';
+import { HistoryPanel } from './components/HistoryPanel';
 import { Tabs, type Tab } from './components/Tabs';
 import { MatchRow } from './components/MatchRow';
 import { MatchDetail } from './components/MatchDetail';
@@ -26,7 +27,11 @@ const subscribeTheme = (listener: () => void) => {
   return () => q.removeEventListener('change', listener);
 };
 function App() {
-  const [tab, setTab] = useState<Tab>('matches');
+  const [tab, setTab] = useState<Tab>(
+    new URLSearchParams(window.location.search).get('view') === 'history'
+      ? 'history'
+      : 'matches',
+  );
   const [selected, setSelected] = useState<Match | null>(null);
   const [theme, setTheme] = useState<boolean | null>(null);
   const systemDark = useSyncExternalStore(
@@ -35,11 +40,12 @@ function App() {
     () => false,
   );
   const dark = theme ?? systemDark;
-  const demo = demoMode();
+  const history = tab === 'history';
+  const demo = demoMode() && !history;
   const archive = useDemo(demo);
-  const matches = useMatches(!demo);
-  const standings = useStandings(!demo);
-  const scorers = useScorers(!demo);
+  const matches = useMatches(!demo && !history);
+  const standings = useStandings(!demo && !history);
+  const scorers = useScorers(!demo && !history);
   const review = demo
     ? new URLSearchParams(window.location.search).get('state')
     : null;
@@ -97,6 +103,10 @@ function App() {
         </a>
         <div className="header-right">
           <RefreshStatus
+            history={history}
+            notConfigured={
+              error instanceof ApiError && error.code === 'feed_not_configured'
+            }
             updatedAt={updatedAt}
             fetching={!demo && matches.isFetching}
             error={!!error}
@@ -134,7 +144,9 @@ function App() {
         )}
         <div className="page-heading">
           <div>
-            <p className="eyebrow">UEFA Champions League / {season}</p>
+            <p className="eyebrow">
+              UEFA Champions League / {history ? 'Results archive' : season}
+            </p>
             <h1>
               Every match.
               <br className="mobile-break" /> One place.
@@ -146,14 +158,16 @@ function App() {
               : 'Fixtures, results & the race to qualify'}
           </span>
         </div>
-        <LiveStrip
-          matches={loading || review === 'error' ? [] : data}
-          onSelect={setSelected}
-          receivedAt={receivedAt}
-          replayAt={demo ? archive.data?.replayAt : undefined}
-          loading={loading}
-          unavailable={!!error && !data.length}
-        />
+        {!history && (
+          <LiveStrip
+            matches={loading || review === 'error' ? [] : data}
+            onSelect={setSelected}
+            receivedAt={receivedAt}
+            replayAt={demo ? archive.data?.replayAt : undefined}
+            loading={loading}
+            unavailable={!!error && !data.length}
+          />
+        )}
         <Tabs active={tab} onChange={setTab} />
         <div className={`dashboard-grid view-${tab}`}>
           <section
@@ -216,94 +230,97 @@ function App() {
               </>
             )}
           </section>
-          <aside className="side-rail">
-            <section
-              id="panel-table"
-              role="tabpanel"
-              aria-labelledby="tab-table"
-              className={`rail-section ${tab === 'scorers' ? 'hide-section' : ''}`}
-            >
-              <div className="section-heading">
-                <h2>League standings</h2>
-                {tab === 'matches' && (
-                  <button
-                    className="text-button"
-                    onClick={() => setTab('table')}
-                  >
-                    Full table
-                  </button>
+          {history && <HistoryPanel onSelect={setSelected} />}
+          {!history && (
+            <aside className="side-rail">
+              <section
+                id="panel-table"
+                role="tabpanel"
+                aria-labelledby="tab-table"
+                className={`rail-section ${tab === 'scorers' ? 'hide-section' : ''}`}
+              >
+                <div className="section-heading">
+                  <h2>League standings</h2>
+                  {tab === 'matches' && (
+                    <button
+                      className="text-button"
+                      onClick={() => setTab('table')}
+                    >
+                      Full table
+                    </button>
+                  )}
+                </div>
+                {demo && archive.data && (
+                  <p className="section-note">{archive.data.standingsNote}</p>
                 )}
-              </div>
-              {demo && archive.data && (
-                <p className="section-note">{archive.data.standingsNote}</p>
-              )}
-              {!demo && standings.error && (
-                <ErrorState
-                  error={standings.error}
-                  retry={() => void standings.refetch()}
-                  subject="league table"
-                  errorAt={standings.errorUpdatedAt}
-                  fetching={standings.isFetching}
-                />
-              )}
-              {(
-                demo
-                  ? archive.isPending
-                  : standings.isPending && standings.isFetching
-              ) ? (
-                <Skeleton rows={8} />
-              ) : table?.length ? (
-                <StandingsTable rows={table} compact={tab === 'matches'} />
-              ) : (
-                !standings.error && (
-                  <EmptyState message="The league-phase table is not available yet." />
-                )
-              )}
-            </section>
-            <section
-              id="panel-scorers"
-              role="tabpanel"
-              aria-labelledby="tab-scorers"
-              className={`rail-section ${tab === 'table' ? 'hide-section' : ''}`}
-            >
-              <div className="section-heading">
-                <h2>Top scorers</h2>
-                {tab === 'matches' && (
-                  <button
-                    className="text-button"
-                    onClick={() => setTab('scorers')}
-                  >
-                    All scorers
-                  </button>
+                {!demo && standings.error && (
+                  <ErrorState
+                    error={standings.error}
+                    retry={() => void standings.refetch()}
+                    subject="league table"
+                    errorAt={standings.errorUpdatedAt}
+                    fetching={standings.isFetching}
+                  />
                 )}
-              </div>
-              {demo && archive.data && (
-                <p className="section-note">{archive.data.scorersNote}</p>
-              )}
-              {!demo && scorers.error && (
-                <ErrorState
-                  error={scorers.error}
-                  retry={() => void scorers.refetch()}
-                  subject="scorer statistics"
-                  errorAt={scorers.errorUpdatedAt}
-                  fetching={scorers.isFetching}
-                />
-              )}
-              {(
-                demo
-                  ? archive.isPending
-                  : scorers.isPending && scorers.isFetching
-              ) ? (
-                <Skeleton rows={5} />
-              ) : leaders?.length ? (
-                <ScorersList rows={leaders} compact={tab === 'matches'} />
-              ) : (
-                !scorers.error && (
-                  <EmptyState message="Scorer statistics are not available for this season yet." />
-                )
-              )}
-            </section>
-          </aside>
+                {(
+                  demo
+                    ? archive.isPending
+                    : standings.isPending && standings.isFetching
+                ) ? (
+                  <Skeleton rows={8} />
+                ) : table?.length ? (
+                  <StandingsTable rows={table} compact={tab === 'matches'} />
+                ) : (
+                  !standings.error && (
+                    <EmptyState message="The league-phase table is not available yet." />
+                  )
+                )}
+              </section>
+              <section
+                id="panel-scorers"
+                role="tabpanel"
+                aria-labelledby="tab-scorers"
+                className={`rail-section ${tab === 'table' ? 'hide-section' : ''}`}
+              >
+                <div className="section-heading">
+                  <h2>Top scorers</h2>
+                  {tab === 'matches' && (
+                    <button
+                      className="text-button"
+                      onClick={() => setTab('scorers')}
+                    >
+                      All scorers
+                    </button>
+                  )}
+                </div>
+                {demo && archive.data && (
+                  <p className="section-note">{archive.data.scorersNote}</p>
+                )}
+                {!demo && scorers.error && (
+                  <ErrorState
+                    error={scorers.error}
+                    retry={() => void scorers.refetch()}
+                    subject="scorer statistics"
+                    errorAt={scorers.errorUpdatedAt}
+                    fetching={scorers.isFetching}
+                  />
+                )}
+                {(
+                  demo
+                    ? archive.isPending
+                    : scorers.isPending && scorers.isFetching
+                ) ? (
+                  <Skeleton rows={5} />
+                ) : leaders?.length ? (
+                  <ScorersList rows={leaders} compact={tab === 'matches'} />
+                ) : (
+                  !scorers.error && (
+                    <EmptyState message="Scorer statistics are not available for this season yet." />
+                  )
+                )}
+              </section>
+            </aside>
+          )}
         </div>
         <footer>
           <span>
@@ -335,6 +352,7 @@ function App() {
         <MatchDetail
           match={selected}
           demo={demo}
+          history={history}
           onClose={() => setSelected(null)}
         />
       )}

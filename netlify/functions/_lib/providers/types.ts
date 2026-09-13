@@ -35,6 +35,8 @@ export interface Match {
   score: Score;
   halfTime: Score;
   fullTime: Score;
+  resultNote?: string;
+  source?: string;
   updatedAt: string;
 }
 export interface StandingRow {

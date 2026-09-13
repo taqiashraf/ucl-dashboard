@@ -2,12 +2,16 @@ import { RefreshCw } from 'lucide-react';
 import { useNow } from '../hooks/useMatchClock';
 import { usePageVisibility } from '../hooks/usePageVisibility';
 export function RefreshStatus({
+  history = false,
+  notConfigured = false,
   updatedAt,
   fetching,
   error,
   replay = false,
   stale = false,
 }: {
+  history?: boolean;
+  notConfigured?: boolean;
   updatedAt?: string;
   fetching: boolean;
   error: boolean;
@@ -22,19 +26,23 @@ export function RefreshStatus({
   return (
     <span className="refresh-status">
       <RefreshCw size={13} />
-      {replay
-        ? 'Historical replay'
-        : !visible
-          ? 'Updates paused'
-          : fetching
-            ? 'Updating…'
-            : error
-              ? 'Reconnecting'
-              : stale
-                ? 'Showing cached data'
-                : updatedAt
-                  ? `Updated ${age < 60 ? `${age}s` : `${Math.floor(age / 60)}m`} ago`
-                  : 'Waiting for feed'}
+      {history
+        ? 'Results archive'
+        : notConfigured
+          ? 'Setup required'
+          : replay
+            ? 'Historical replay'
+            : !visible
+              ? 'Updates paused'
+              : fetching
+                ? 'Updating…'
+                : error
+                  ? 'Reconnecting'
+                  : stale
+                    ? 'Showing cached data'
+                    : updatedAt
+                      ? `Updated ${age < 60 ? `${age}s` : `${Math.floor(age / 60)}m`} ago`
+                      : 'Waiting for feed'}
     </span>
   );
 }

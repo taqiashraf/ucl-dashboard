@@ -34,7 +34,7 @@ export function ErrorState({
         </strong>
         <p>
           {configured
-            ? 'Live scores need a football API connection. You can explore a historical matchday now.'
+            ? 'Live scores need a server-side API key. Recent results are available in History without an account.'
             : `Retrying in ${seconds}s. The rest of your dashboard stays available.`}
         </p>
         <div className="state-actions">
@@ -42,7 +42,7 @@ export function ErrorState({
             <RefreshCw size={14} />
             {fetching ? 'Connecting…' : 'Try again'}
           </button>
-          {configured && <a href="?demo=1">Explore historical demo</a>}
+          {configured && <a href="?view=history">Browse recent results</a>}
         </div>
       </div>
     </div>
