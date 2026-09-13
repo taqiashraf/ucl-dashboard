@@ -12,17 +12,17 @@ Football-data's default competition endpoints choose the active season; the seas
 
 `scripts/update-history.mjs` fetches the current and seven prior seasons from ESPN, validates completed scores, filters the source season and excludes qualifying rounds. Its September–August windows preserve the delayed 2019/20 finish. The current season before September is an empty results archive until the main competition starts. The index drives season selectors after rebuild.
 
-`.github/workflows/refresh-history.yml` is prepared to run daily at 06:23 UTC and on manual dispatch. It validates/builds before committing archive changes. This workflow is a repository file, not an active scheduled service until the project is pushed to GitHub and Actions are enabled. GitHub schedules can be delayed and may pause in inactive public repositories; monitor failed runs.
+`.github/workflows/refresh-history.yml` runs daily at 06:23 UTC and on manual dispatch. It validates/builds before committing archive changes. The first manual run succeeded on September 13, 2026, committed the refreshed archive, and Netlify automatically published that commit through its Git integration. GitHub schedules can be delayed and may pause in inactive public repositories; monitor failed runs.
 
 For Netlify:
 
 1. Push the project to the chosen GitHub repository and import it in Netlify. The checked-in configuration uses `npm run build`, publishes `dist`, and deploys `netlify/functions`.
 2. Set server environment variables privately: FOOTBALL_API_KEY, DATA_PROVIDER=football-data, ALLOWED_ORIGIN equal to the exact deployed HTTPS origin.
 3. Enable the archive workflow on the default branch with permission to commit. Branch protection may require a PR-based update process instead.
-4. Create a Netlify build hook and store its URL as the GitHub Actions secret NETLIFY_BUILD_HOOK. The workflow invokes it after validation and committing. Treat the hook URL as a secret.
+4. The connected Netlify Git integration publishes archive commits automatically; this was verified on the first refresh. An optional NETLIFY_BUILD_HOOK secret is supported for deployments that need an explicit trigger, but is not needed for this site.
 5. Run the workflow once and verify the archive timestamp and live endpoints on the public site. Confirm deployment behavior before relying on unattended refresh.
 
-No GitHub repository, live build hook or public deployment was configured in this implementation turn. Localhost works only while the local server is running. A deployed Netlify function runs independently of your laptop.
+The public site is https://ucl-matchday.netlify.app and its repository is https://github.com/taqiashraf/ucl-dashboard. Production is public; deploy previews remain private. The Netlify function runs independently of your laptop. Only FOOTBALL_API_KEY contains a credential; DATA_PROVIDER and ALLOWED_ORIGIN are public configuration and are excluded from secret-value matching. The API key remains subject to secret scanning.
 
 ## Commercial measurements
 

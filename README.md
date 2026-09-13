@@ -1,12 +1,13 @@
 # Champions League Live Dashboard
 
-[![Local demo](docs/preview-badge.svg)](http://localhost:8888/?demo=1)
+[![Open dashboard](https://img.shields.io/badge/Open-dashboard-1E4FD8?style=for-the-badge)](https://ucl-matchday.netlify.app)
+[![CI](https://github.com/taqiashraf/ucl-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/taqiashraf/ucl-dashboard/actions/workflows/ci.yml)
 
 Scores, fixtures, standings and scorers in one accessible matchday view.
 
-[See it with live matches in progress — historical replay](http://localhost:8888/?demo=1)
+[See it with live matches in progress — historical replay](https://ucl-matchday.netlify.app/?demo=1)
 
-**Public deployment is pending account setup.** No public URL or successful GitHub Actions run is claimed.
+**Public dashboard:** [ucl-matchday.netlify.app](https://ucl-matchday.netlify.app). Check the CI badge for the current workflow status.
 
 ![Desktop dashboard with an explicitly labeled historical replay](docs/screenshots/desktop.png)
 
@@ -67,7 +68,7 @@ npm install
 npm run dev:netlify
 ```
 
-Open [localhost:8888/?demo=1](http://localhost:8888/?demo=1). No key or account is needed for this historical demo. Keep the terminal open. Control-C stops the server.
+Open [localhost:8888/?demo=1](https://ucl-matchday.netlify.app/?demo=1). No key or account is needed for this historical demo. Keep the terminal open. Control-C stops the server.
 
 For the live feed, get a key from [football-data.org](https://www.football-data.org/client/register):
 
